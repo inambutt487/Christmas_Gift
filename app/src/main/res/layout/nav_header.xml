@@ -1,0 +1,25 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/_160sdp"
+    android:orientation="vertical"
+    android:layout_marginTop="@dimen/_30sdp">
+
+    <ImageView
+        android:id="@+id/iconnnn"
+        android:layout_width="@dimen/_130sdp"
+        android:layout_height="@dimen/_130sdp"
+        android:layout_centerHorizontal="true"
+        android:background="@drawable/icon" />
+
+    <TextView
+        android:id="@+id/bloww"
+        android:layout_width="wrap_content"
+        android:layout_height="@dimen/_25sdp"
+        android:layout_below="@+id/iconnnn"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="@dimen/_10sdp"
+        android:text="CHRISTMAS "
+        android:textColor="#C6303C"
+        android:textSize="@dimen/_15sdp"
+        android:textStyle="bold" />
+</RelativeLayout>

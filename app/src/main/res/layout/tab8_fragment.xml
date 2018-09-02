@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#142ef1">
+
+    <LinearLayout
+        android:id="@+id/first9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical"
+        android:visibility="visible"
+        android:weightSum="10">
+
+
+        <pl.droidsonroids.gif.GifImageView
+            android:id="@+id/giftshow"
+            android:layout_width="@dimen/_200sdp"
+            android:layout_height="@dimen/_200sdp"
+            android:background="@drawable/boxing" />
+
+        <TextView
+            android:id="@+id/text4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_10sdp"
+            android:gravity="center"
+            android:text="Merry Christmas\nClick the Box to Collect Your Gift"
+            android:textColor="#fff"
+            android:textSize="@dimen/_25sdp" />
+
+    </LinearLayout>
+    <LinearLayout
+        android:id="@+id/second9"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:visibility="gone"
+        android:weightSum="10">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="2.1"
+            android:gravity="center|bottom">
+
+            <ImageView
+                android:layout_width="@dimen/_80sdp"
+                android:layout_height="@dimen/_100sdp"
+                android:src="@drawable/box1" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:layout_weight="2.3">
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="December 25"
+                android:textSize="@dimen/_25sdp"
+                android:textColor="#fff"
+                />
+            <TextView
+                android:id="@+id/text2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:gravity="center"
+                android:layout_margin="@dimen/_5sdp"
+                android:text="Come back here on December 25 to unwrap your gift"
+                android:textSize="@dimen/_25sdp"
+                android:textColor="#fff"
+                />
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:background="@drawable/ribbon"
+            android:layout_weight=".8"/>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:gravity="center|top"
+            android:orientation="vertical"
+            android:weightSum="5"
+            android:layout_weight="4.8">
+            <LinearLayout
+                android:layout_width="@dimen/_270sdp"
+                android:layout_height="0dp"
+                android:gravity="center|bottom"
+                android:background="@drawable/pop"
+                android:layout_weight="1">
+                <TextView
+                    android:id="@+id/text3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textColor="#fff"
+                    android:text="Our Popular Apps"
+                    android:layout_marginBottom="@dimen/_3sdp"
+                    android:textSize="@dimen/_20sdp"/>
+            </LinearLayout>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="3">
+
+                <ScrollView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content">
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical">
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/app1"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon1" />
+
+                            <ImageView
+                                android:id="@+id/app2"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon2" />
+
+                            <ImageView
+                                android:id="@+id/app3"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon3" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/app4"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon4" />
+
+                            <ImageView
+                                android:id="@+id/app5"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon5" />
+
+                            <ImageView
+                                android:id="@+id/app6"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon6" />
+
+                        </LinearLayout>
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:gravity="center">
+
+                            <ImageView
+                                android:id="@+id/app7"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon7" />
+
+                            <ImageView
+                                android:id="@+id/app8"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginRight="@dimen/_20sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon8" />
+
+                            <ImageView
+                                android:id="@+id/app9"
+                                android:layout_width="@dimen/_80sdp"
+                                android:layout_height="@dimen/_80sdp"
+                                android:layout_marginTop="@dimen/_5sdp"
+                                android:background="@drawable/icon9" />
+
+                        </LinearLayout>
+
+                    </LinearLayout>
+
+                </ScrollView>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="0dp"
+                android:layout_weight="1">
+
+                <com.google.android.gms.ads.AdView xmlns:ads="http://schemas.android.com/apk/res-auto"
+                    android:id="@+id/adView1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    ads:adSize="SMART_BANNER"
+                    ads:adUnitId="ca-app-pub-3444255945927869/4845439052" />
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</RelativeLayout>
